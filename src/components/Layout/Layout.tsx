@@ -7,15 +7,17 @@ export function Layout() {
         <nav>
           <ul>
             <li>
-              <Link to="/">Simple video stream 1</Link>
+              <Link to="/">Video stream (getUserMedia)</Link>
             </li>
             <li>
-              <Link to="/example2">Simple video stream 2</Link>
+              <Link to="/example2">Video stream (deviceId)</Link>
             </li>
             <li>
-              <Link to="/example3">Simple video stream 3</Link>
+              <Link to="/example3">Video stream (custom hook)</Link>
             </li>
-
+            <li>
+              <Link to="/example-q">Video stream Quality</Link>
+            </li>
             <li>
               <Link to="/example4">Media device list</Link>
             </li>
@@ -24,6 +26,9 @@ export function Layout() {
 
             <li>
               <Link to="/example5">Screen capture</Link>
+            </li>
+            <li>
+              <Link to="/snapshot">Snapshot</Link>
             </li>
 
           </ul>
